@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex-grow: 1;
+}
+footer {
+  flex-shrink: 0;
+}
+.navbar-collapse.in {
+  display: block !important;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.messages {
+  opacity: 0;
+}
